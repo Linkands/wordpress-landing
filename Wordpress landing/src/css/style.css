@@ -1,0 +1,370 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/bg/bg1.png') center center/cover no-repeat;
+    padding: 29px 0 62px 0;
+}
+
+.logo .logo_img {
+    margin: 0 auto;
+    display: block;
+}
+
+.logo .logo_text {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.title {
+    font-family: Roboto;
+    font-size: 41px;
+    line-height: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f9bf3b;
+    text-align: center;
+}
+
+.simple .title_big {
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 23px;
+}
+
+.promo .promo_text span {
+    font-weight: 700;
+    color: #f9bf3b;
+}
+
+.promo .promo_btn {
+    width: 321px;
+    height: 80px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0,0,0,0.22);
+    margin: 0 auto;
+    display: block;
+    margin-top: 69px;
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.21);
+    font-size: 21px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+
+.promo .more {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 69px;
+}
+
+.promo .more img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    padding: 85px 0 75px 0;
+    background-color: #efefef;
+    min-height: 604px;
+}
+
+.waiting .waiting_header {
+    font-family: Roboto;  
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+}
+
+.waiting .waiting_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;  
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 350px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-top: 33px;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    margin-left: 391px;
+}
+
+.optimization .optimization_text {
+    font-family: Roboto;
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #4a4a4a;
+    margin-top: 25px;
+    margin-left: 391px;
+}
+
+.optimization .optimization_text span {
+    font-weight: 700;
+}
+
+.optimization .optimization_bg {
+    position: absolute;
+    top: -54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    background: url(../img/bg/bg3.png) center center/cover no-repeat;
+    padding: 86px 0 79px 0;
+}
+
+.finish .finish_header {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #efefef;
+    text-align: center;
+}
+
+.finish .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    color: #efefef;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.gift {
+    min-height: 628px;
+    background-color: #efefef;
+    padding: 86px 0 83px 0;
+}
+
+.gift .gift_head_pic img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_body_pic img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_text {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    color: #252525;
+    margin-top: 42px;
+    text-align: center;
+}
+
+.gift .gift_button {
+    width: 321px;
+    height: 80px;
+    background-image: linear-gradient(0.0deg, #2798b9 0%, #3ab6da 100%);
+    border: 4px solid rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.gift .gift_button_text {
+    box-shadow: -1px -1px 0px 0px rgba(0,0,0,0.21);
+    font-size: 21px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.seminar {
+    padding: 89px 0 64px 0;
+}
+
+.seminar .seminar_round {
+    width: 342px;
+    height: 201px;
+    background: url(../img/layer_7_copy_5_130.png);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.seminar .seminar_round .seminar_icon {
+    margin-top: 7px;
+}
+
+.seminar h2 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #252525;
+    text-align: center;
+    margin-top: 37px;
+}
+
+.seminar .seminar_text {
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #299cbd;
+    text-align: center;
+}
+
+.seminar .seminar_text2 {
+    margin-top: 25px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    color: #4a4a4a;
+    text-align: center;
+}
+
+footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+}
+
+.info {
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 21px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #888888;
+    text-align: center;
+}
+
+.info .info_links a {
+    color: #888888;
+}
